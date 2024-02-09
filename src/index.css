@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+.active {
+  background: #0a192f;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.btn {
+  background: #406aff;
+  box-shadow: 0px 4.42184px 107.23px rgba(89, 86, 255, 0.51);
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  
+  .h2 {
+    @apply font-primary text-2xl mb-6 tracking-wider uppercase;
+  }
+  
+  .h3 {
+    @apply font-primary font-semibold text-2xl mb-6 ;
+  }
+  
+  .btn {
+    @apply rounded-full font-primary text-white font-medium;
+  }
+  
+  .btn-sm {
+    @apply h-12 px-6 text-sm;
+  }
+  
+  .btn-lg {
+    @apply font-semibold h-[54px] font-primary px-8 bg-gradient-to-r; 
+  }
+  
+  .section {
+    @apply py-8 lg:py-32 lg:h-screen flex items-center;
+  }
+}
+
+
