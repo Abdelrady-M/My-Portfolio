@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { fadeIn } from '../variants'
 const Contact = () => {
     return (
-        <section id='contact' className='section mt-[80%]'>
+        <section id='contact' className='section mt-[500px]'>
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row'>
                     <motion.div
