@@ -81,7 +81,7 @@ const Main = () => {
                         whileInView={"show"}
                         className='lg:flex hidden flex-1 max-w-[320px] lg-max-w-[480px] rounded-full'
                     >
-                        <img src='./rady.png' />
+                        <img src='./abd_elrady.png' />
                     </motion.div>
                 </div>
 

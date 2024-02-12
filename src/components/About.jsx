@@ -20,6 +20,7 @@ const About = () => {
                         whileInView={"show"}
                         className='flex-1 bg-about bg-contain bg-no-repeat h-[350px] mix-blend-lighten bg-top'
                     >
+
                     </motion.div>
                     <motion.div
                         variants={fadeIn("right", 0.4)}
