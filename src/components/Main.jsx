@@ -58,7 +58,7 @@ const Main = () => {
                             <a href='https://www.linkedin.com/in/abdelrady-mohamed/'>
                                 <button className='btn btn-lg'>Contact me</button>
                             </a>
-                            <a href='./My-CV.pdf'>My Resume</a>
+                            <a href='./Abdelrady.pdf'>My Resume</a>
                         </motion.div>
                         <motion.div
                             variants={fadeIn("up", 0.9)}
